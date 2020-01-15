@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap:400,500,600,700');
+
+// Set your brand colors
+// $pink: #f1cfd6;
+
+// Update Bulma's global variables
+// $family-sans-serif: "Poppins", sans-serif;
+// $primary: $pink;
+
+// Update some of Bulma's component variables
+// $label-weight: 400;
+// $footer-background-color: $dark;
+
+// Import all utils before importing the rest of bulma
+// @import "./bulma-overrides.scss";
+
+.media-content .title {
+    margin-top: 0.5rem;
+}
+
+@import "../../node_modules/bulma/bulma.sass";
+
+// @import "./homepage.scss";
+// @import "./image.scss";
+// @import "./footer.scss";
+// @import "./navbar.scss";
+// @import "./dashboard.scss";
+// @import "./map.scss";
